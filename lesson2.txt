@@ -1,0 +1,47 @@
+Задание 1. cat > file1		>>	qwerty
+	   cat > file2		>>	asdfg
+	   cat file1 file2 > file3
+	   cat file3		>>	qwerty
+					asdfg
+	   mv file3 file4
+
+Задание 2. touch file10
+	   touch file11
+	   mkdir files
+	   mv file10 file11 /home/andrei/files
+	   rm file1 file2 file4
+	   rm -r files
+
+Задание 3. cat > file1		>>	qwerty
+					asdfgh
+					zxcvbn
+	   cat file1 > file2
+	   ln -s file1 file3
+	   ln file1 file4
+	   rm file1
+	   cat: file3: Нет такого файла или каталога
+	   cat file4		>>	qwerty
+					asdfgh
+					zxcvbn
+
+Задание 4. mv file2 file100
+	   mv file4 file200
+	   ln -s file100 file_link100
+	   ln -s file200 file_link200
+	   mv file_link100 Документы
+	   mv file_link200 Документы
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
