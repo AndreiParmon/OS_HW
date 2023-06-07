@@ -4,10 +4,11 @@ echo "Введите путь:"
 read Directory
 cd $Directory
 
-if [ -e $lesson4 ]
+if [ -e $Directory ]
 then
-        rm -Iv *
+        rm -iv *.bak *.tmp *.backup
         echo "Файлы удалены"
 else
-        echo "Неверный путь каталога"
+        echo "ОШИБКА!!!"
+        echo "Такой директории не существует"
 fi
