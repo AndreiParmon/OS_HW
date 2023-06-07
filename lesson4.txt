@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "Введите путь:"
+read Directory
+cd $Directory
+
+if [ -e $lesson4 ]
+then
+        rm -Iv *
+        echo "Файлы удалены"
+else
+        echo "Неверный путь каталога"
+fi
